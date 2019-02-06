@@ -12,8 +12,6 @@ from troposphere import ec2, route53
 from stacker.blueprints.base import Blueprint
 from stacker.blueprints.variables.types import TroposphereType
 
-import pprint
-
 NAT_INSTANCE_NAME = 'NatInstance%s'
 NAT_GATEWAY_NAME = 'NatGateway%s'
 GATEWAY = 'InternetGateway'
